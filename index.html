@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Skylar's Amazing Website</title>
+    </head>
+     <style>
+            body {
+                background: rgb(125, 198, 205);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            [id=all-contents] {
+                max-width: 800px;
+                margin: auto;
+            }
+    
+            /* navigation menu */
+            nav {
+                background: rgb(239, 80, 41);
+                margin: 0 auto;
+                margin-bottom: 20px;
+                display: flex;
+                padding: 10px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(243, 185, 125);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+    
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            [class=sidebar] {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            [class=sidebar] img {
+                width: 200px;
+            }
+            [class=content] {
+                flex: 1;
+                padding: 15px;
+            }
+            [class=interests] header {
+                font-size: 1.25em;
+            }
+        </style>
+
+    <body>
+        <div id="all-contents"> 
+            <nav>
+                 <header>Skylar's Beautiful Website</header>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+            
+            <main>
+                 <div class="sidebar">
+    
+                      <img src="https://openclipart.org/image/90px/svg_to_png/193409/1399740906.png">
+                </div>
+    
+                <div class="content">
+                    <header>Skylar Fontaine</header>
+                    <p>Senior at Belle Chasse High School </p>
+                       <section class="interests">
+                        <header>All about me!</header>
+                        <ul>
+                            <li>Photography is my passion.</li>
+                            <li>It is my dream to travel the world.</li>
+                            <li>I adore animals. My favorite animal is the wolf.</li>
+                        </ul>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </body>
+    
+</html>
